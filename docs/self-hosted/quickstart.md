@@ -48,7 +48,7 @@ services:
       ADMIN_PASSWORD: 'd1r3ctu5'
       DB_CLIENT: 'sqlite3'
       DB_FILENAME: '/directus/database/data.db'
-      WEBSOCKETS_ENABLED: true
+      WEBSOCKETS_ENABLED: 'true'
 ```
 
 Save the file. Let's step through it:
@@ -79,7 +79,7 @@ Open the Terminal and run the following commands one line at a time:
 
 ```
 cd Desktop/directus
-docker compose up
+docker-compose up
 ```
 
 == Windows
